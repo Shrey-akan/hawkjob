@@ -33,6 +33,7 @@ public class UserController {
 	@PostMapping("/insertusermail")
 	public User insertusermail(@RequestBody User c1)
 	{
+		
 			return ud.save(c1);
 		
 	}
